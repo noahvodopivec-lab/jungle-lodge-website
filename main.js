@@ -19,7 +19,7 @@ const translations = {
     'hero.book':          'Book on Airbnb',
 
     'intro.label':        'The Lodge',
-    'intro.body':         'This is not a resort. It\'s a small, personal place built into the edge of the rainforest, right where the Río Dulce widens into El Golfete. We take a maximum of 14 guests — enough to keep things quiet, enough to actually know your name. Safari-style bungalows, open-air common spaces, and a river that never stops moving outside your door.',
+    'intro.body':         'The Jungle Lodge sits on El Golfete, the lake-like stretch of the Río Dulce in Guatemala. Five bungalows, a main house with bar and lounge, kayaks included. The property borders primary rainforest and a private wetland — home to manatees, monkeys, and hundreds of bird species. Room for fourteen guests.',
 
     'pillars.kayak.title':   'Kayaks Included',
     'pillars.kayak.desc':    'Paddle into the mangroves at sunrise. No extra charge, no booking required.',
@@ -110,7 +110,7 @@ const translations = {
     'hero.book':          'Auf Airbnb buchen',
 
     'intro.label':        'Die Lodge',
-    'intro.body':         'Das hier ist kein Resort. Es ist ein kleiner, persönlicher Ort am Rand des Regenwaldes, genau dort, wo sich der Río Dulce zu El Golfete weitet. Wir nehmen maximal 14 Gäste auf — genug, um es ruhig zu halten, genug, um deinen Namen zu kennen. Safari-Bungalows, offene Gemeinschaftsbereiche und ein Fluss, der sich nie beruhigt.',
+    'intro.body':         'Die Jungle Lodge liegt am El Golfete, dem seeartigen Abschnitt des Río Dulce in Guatemala. Fünf Bungalows, ein Haupthaus mit Bar und Lounge, Kajaks inklusive. Das Grundstück grenzt direkt an den Primärregenwald und ein eigenes Feuchtgebiet — Heimat von Manatees, Affen und hunderten Vogelarten. Platz für vierzehn Gäste.',
 
     'pillars.kayak.title':   'Kajaks inklusive',
     'pillars.kayak.desc':    'Bei Sonnenaufgang in die Mangroven paddeln. Ohne Aufpreis, ohne Anmeldung.',
