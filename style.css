@@ -220,6 +220,13 @@ h1, h2, h3, h4, h5 {
   display: flex;
   flex-direction: column;
 }
+.nav__logo-img {
+  height: 48px;
+  width: auto;
+  border-radius: 6px;
+  display: block;
+}
+
 .nav__logo-name {
   font-family: var(--font-display);
   font-size: 1.25rem;
@@ -884,6 +891,14 @@ h1, h2, h3, h4, h5 {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+}
+
+.footer__logo-img {
+  height: 80px;
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 .footer__logo {
