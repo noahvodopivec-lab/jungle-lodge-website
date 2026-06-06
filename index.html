@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jungle Lodge Río Dulce · Guatemala</title>
+  <meta name="description" content="An off-grid eco lodge on the Río Dulce, Guatemala. 5 private bungalows, kayaks included, surrounded by primary rainforest. Up to 14 guests." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVIGATION ═══════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-name">Jungle Lodge</span>
+        <span class="nav__logo-sub">Río Dulce · Guatemala</span>
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#bungalows" class="nav__link">Bungalows</a></li>
+        <li><a href="#activities" class="nav__link">Activities</a></li>
+        <li><a href="#arrival" class="nav__link">Getting Here</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+        <li><a href="#" class="nav__cta">Book Now</a></li>
+      </ul>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="nav__overlay" id="navOverlay">
+      <button class="nav__overlay-close" id="navClose" aria-label="Close menu">✕</button>
+      <ul class="nav__overlay-links">
+        <li><a href="#bungalows" class="nav__overlay-link" data-close>Bungalows</a></li>
+        <li><a href="#activities" class="nav__overlay-link" data-close>Activities</a></li>
+        <li><a href="#arrival" class="nav__overlay-link" data-close>Getting Here</a></li>
+        <li><a href="#contact" class="nav__overlay-link" data-close>Contact</a></li>
+        <li><a href="#" class="nav__overlay-cta" data-close>Book Now on Airbnb</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img
+        src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80"
+        alt="Tropical river surrounded by rainforest"
+        class="hero__img"
+      />
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow fade-in-up">Río Dulce · Guatemala</p>
+      <h1 class="hero__headline fade-in-up">Where the jungle<br>meets the river.</h1>
+      <p class="hero__sub fade-in-up">An off-grid eco lodge on the Río Dulce.<br>Real jungle. Real river sounds at night. Up to 14 guests.</p>
+      <div class="hero__actions fade-in-up">
+        <a href="#bungalows" class="btn btn--outline">Explore the Lodge</a>
+        <a href="#" class="btn btn--primary">Book on Airbnb</a>
+      </div>
+    </div>
+
+    <a href="#intro" class="hero__scroll-indicator" aria-label="Scroll down">
+      <span class="hero__scroll-icon"></span>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════ INTRO / PHILOSOPHY ═══════════════════════════════ -->
+  <section class="intro" id="intro">
+    <div class="container">
+      <div class="intro__text fade-in-up">
+        <h2 class="section-label">The Lodge</h2>
+        <p class="intro__body">
+          This is not a resort. It's a small, personal place built into the edge of the rainforest,
+          right where the Río Dulce widens into El Golfete. We take a maximum of 14 guests — enough to keep
+          things quiet, enough to actually know your name. Safari-style bungalows, open-air common spaces,
+          and a river that never stops moving outside your door.
+        </p>
+      </div>
+
+      <div class="intro__pillars">
+        <div class="pillar fade-in-up">
+          <span class="pillar__icon">🛶</span>
+          <h3 class="pillar__title">Kayaks Included</h3>
+          <p class="pillar__desc">Paddle into the mangroves at sunrise. No extra charge, no booking required.</p>
+        </div>
+        <div class="pillar fade-in-up">
+          <span class="pillar__icon">🤠</span>
+          <h3 class="pillar__title">Vaquero Experience</h3>
+          <p class="pillar__desc">A full day with a local cowboy — horses, cattle, and real Guatemalan countryside.</p>
+        </div>
+        <div class="pillar fade-in-up">
+          <span class="pillar__icon">🌿</span>
+          <h3 class="pillar__title">Private Nature Reserve</h3>
+          <p class="pillar__desc">The lodge borders a protected wetland. Herons, howler monkeys, and silence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ BUNGALOWS ═══════════════════════════════ -->
+  <section class="bungalows" id="bungalows">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-label">Where You Sleep</h2>
+        <h3 class="section-title">Five bungalows.<br>No two the same.</h3>
+      </div>
+
+      <div class="bungalows__grid">
+
+        <!-- Jungle Solo -->
+        <article class="bungalow-card fade-in-up">
+          <div class="bungalow-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&auto=format&fit=crop&q=80"
+              alt="Jungle Solo Bungalow"
+              loading="lazy"
+              class="bungalow-card__img"
+            />
+            <div class="bungalow-card__badge">From $35 / night</div>
+          </div>
+          <div class="bungalow-card__body">
+            <h4 class="bungalow-card__name">Jungle Solo</h4>
+            <p class="bungalow-card__target">For solo travelers &amp; couples</p>
+            <p class="bungalow-card__desc">
+              Tucked into the treeline, close enough to hear the river at night.
+              Simple, honest, and everything you actually need.
+            </p>
+            <div class="bungalow-card__tags">
+              <span class="tag">Double bed</span>
+              <span class="tag">Private terrace</span>
+              <span class="tag">Hammock</span>
+              <span class="tag">Mosquito net</span>
+              <span class="tag">River view</span>
+            </div>
+            <a href="#" class="btn btn--primary btn--full">Check Availability</a>
+          </div>
+        </article>
+
+        <!-- River View -->
+        <article class="bungalow-card fade-in-up">
+          <div class="bungalow-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&auto=format&fit=crop&q=80"
+              alt="River View Bungalow"
+              loading="lazy"
+              class="bungalow-card__img"
+            />
+            <div class="bungalow-card__badge">From $65 / night</div>
+          </div>
+          <div class="bungalow-card__body">
+            <h4 class="bungalow-card__name">River View</h4>
+            <p class="bungalow-card__target">For couples &amp; digital nomads</p>
+            <p class="bungalow-card__desc">
+              Direct river view from your terrace. Air conditioning, en-suite bathroom,
+              and Starlink WiFi strong enough to work — or to forget you should.
+            </p>
+            <div class="bungalow-card__tags">
+              <span class="tag">Double bed</span>
+              <span class="tag">A/C</span>
+              <span class="tag">En-suite bath</span>
+              <span class="tag">River terrace</span>
+              <span class="tag">Starlink WiFi</span>
+            </div>
+            <a href="#" class="btn btn--primary btn--full">Check Availability</a>
+          </div>
+        </article>
+
+        <!-- Family Bungalow -->
+        <article class="bungalow-card fade-in-up">
+          <div class="bungalow-card__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800&auto=format&fit=crop&q=80"
+              alt="Family Bungalow"
+              loading="lazy"
+              class="bungalow-card__img"
+            />
+            <div class="bungalow-card__badge">From $120 / night</div>
+          </div>
+          <div class="bungalow-card__body">
+            <h4 class="bungalow-card__name">Family Bungalow</h4>
+            <p class="bungalow-card__target">For families &amp; groups</p>
+            <p class="bungalow-card__desc">
+              Sleeps six across two double and two single beds. A private dock access,
+              kitchenette for early mornings, and the strongest A/C on the property.
+            </p>
+            <div class="bungalow-card__tags">
+              <span class="tag">6 guests</span>
+              <span class="tag">Strong A/C</span>
+              <span class="tag">Kitchenette</span>
+              <span class="tag">Private dock</span>
+              <span class="tag">Starlink WiFi</span>
+            </div>
+            <a href="#" class="btn btn--primary btn--full">Check Availability</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="bungalows__note fade-in-up">
+        All bungalows include kayak access, welcome drink, and lodge WiFi. Breakfast available on request.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ACTIVITIES ═══════════════════════════════ -->
+  <section class="activities" id="activities">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-label">What to Do</h2>
+        <h3 class="section-title">The river is your<br>front yard.</h3>
+      </div>
+
+      <div class="activities__grid">
+
+        <div class="activity-card fade-in-up">
+          <div class="activity-card__icon">🛶</div>
+          <div class="activity-card__body">
+            <div class="activity-card__meta">
+              <h4 class="activity-card__name">Kayak the Río Dulce</h4>
+              <span class="activity-card__price activity-card__price--free">Included</span>
+            </div>
+            <p class="activity-card__desc">
+              Take a kayak out at dawn, when the mist sits low on the water. The mangrove channels
+              go on for hours. You won't see another boat.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card fade-in-up">
+          <div class="activity-card__icon">🤠</div>
+          <div class="activity-card__body">
+            <div class="activity-card__meta">
+              <h4 class="activity-card__name">Vaquero Experience</h4>
+              <span class="activity-card__price">From $50 / person</span>
+            </div>
+            <p class="activity-card__desc">
+              A full day with Don Carlos, a third-generation cowboy from the valley.
+              Horses, cattle, a home-cooked lunch, and zero tourist filters.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card fade-in-up">
+          <div class="activity-card__icon">🚤</div>
+          <div class="activity-card__body">
+            <div class="activity-card__meta">
+              <h4 class="activity-card__name">Boat Tours</h4>
+              <span class="activity-card__price">Ask us</span>
+            </div>
+            <p class="activity-card__desc">
+              Day trips to Livingston, the Biotopo Chocón Machacas, or the manatee
+              zones of El Golfete. We arrange the boat, you bring sunscreen.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card fade-in-up">
+          <div class="activity-card__icon">🌿</div>
+          <div class="activity-card__body">
+            <div class="activity-card__meta">
+              <h4 class="activity-card__name">Wildlife &amp; Birding</h4>
+              <span class="activity-card__price activity-card__price--free">Included</span>
+            </div>
+            <p class="activity-card__desc">
+              The lodge borders a private wetland. Boat-billed herons, kingfishers, howler monkeys
+              at 5am whether you want them or not. Binoculars available at the bar.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ THE LODGE / ATMOSPHERE ═══════════════════════════════ -->
+  <section class="atmosphere" id="atmosphere">
+    <div class="atmosphere__img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=1400&auto=format&fit=crop&q=80"
+        alt="Lodge main house with jungle surroundings"
+        loading="lazy"
+        class="atmosphere__img"
+      />
+    </div>
+    <div class="atmosphere__content fade-in-up">
+      <h2 class="section-label">The Main House</h2>
+      <h3 class="section-title">Where the evenings happen.</h3>
+      <p class="atmosphere__body">
+        The main house is open on all sides. A thatched roof, a bar stocked with Quetzal beer and
+        Zacapa rum, and long wooden tables that end up covered in maps by midnight. Safari-style
+        furniture, hammocks on the porch, and a fire pit for nights when the sky is clear enough
+        to matter.
+      </p>
+      <p class="atmosphere__body">
+        We keep it to 14 guests maximum. Not because we can't build more bungalows — because
+        we won't. The silence is part of what you're paying for.
+      </p>
+      <blockquote class="atmosphere__quote">
+        "The adventure starts before you check in."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ARRIVAL ═══════════════════════════════ -->
+  <section class="arrival" id="arrival">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <h2 class="section-label">Getting Here</h2>
+        <h3 class="section-title">Four hours from the capital.<br>A world away.</h3>
+      </div>
+
+      <div class="arrival__layout">
+        <div class="arrival__steps fade-in-up">
+          <div class="arrival__step">
+            <div class="arrival__step-num">01</div>
+            <div class="arrival__step-text">
+              <h4>Guatemala City or Antigua</h4>
+              <p>Most guests fly into GUA. Antigua is a popular first stop — it's 45 min from the airport and worth a night or two.</p>
+            </div>
+          </div>
+          <div class="arrival__step">
+            <div class="arrival__step-num">02</div>
+            <div class="arrival__step-text">
+              <h4>Río Dulce Town</h4>
+              <p>Direct shuttle buses run daily from Antigua and Guatemala City to Río Dulce (approx. 4–5 hours). Alternatively, drive yourself — it's a straightforward highway route.</p>
+            </div>
+          </div>
+          <div class="arrival__step">
+            <div class="arrival__step-num">03</div>
+            <div class="arrival__step-text">
+              <h4>Boat Pickup to the Lodge</h4>
+              <p>We collect you by boat from the Río Dulce dock. The 15-minute ride through the gorge and into El Golfete is the first thing guests talk about. Message us your arrival time and we handle the rest.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrival__map fade-in-up">
+          <div class="arrival__map-wrap">
+            <iframe
+              title="Jungle Lodge Río Dulce location"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30000!2d-89.0353!3d15.6319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgt!4v1700000000000!5m2!1sen!2sgt"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <a href="https://wa.me/50212345678?text=Hello%2C%20I'd%20like%20to%20arrange%20a%20boat%20pickup%20to%20the%20Jungle%20Lodge." class="btn btn--primary btn--full arrival__whatsapp">
+            📱 Request Boat Pickup via WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTACT / REVIEW QUOTE ═══════════════════════════════ -->
+  <section class="contact-strip" id="contact">
+    <div class="container">
+      <div class="contact-strip__inner fade-in-up">
+        <div class="contact-strip__quote">
+          <p class="contact-strip__review">
+            "This is a real jungle. Real insects. Real river sounds at night.
+            If you love that, you'll give this place five stars too."
+          </p>
+          <p class="contact-strip__attribution">— The Lodge</p>
+        </div>
+        <div class="contact-strip__actions">
+          <p class="contact-strip__cta-label">Ready to book or have questions?</p>
+          <a href="#" class="btn btn--primary">View on Airbnb</a>
+          <a href="https://wa.me/50212345678" class="btn btn--outline">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Jungle Lodge</span>
+          <span class="footer__tagline">Where the jungle meets the river.</span>
+          <span class="footer__detail">Maximum 14 guests · Río Dulce, Guatemala</span>
+        </div>
+
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="#" class="footer__link">Airbnb</a>
+          <a href="#" class="footer__link">Instagram</a>
+          <a href="#" class="footer__link">TikTok</a>
+          <a href="https://wa.me/50212345678" class="footer__link">WhatsApp</a>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Jungle Lodge Río Dulce. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
