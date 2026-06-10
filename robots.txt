@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://noahvodopivec-lab.github.io/jungle-lodge-website/sitemap.xml
